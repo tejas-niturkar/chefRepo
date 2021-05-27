@@ -47,3 +47,18 @@ sudo su roott
 sudo su root
 sudo su
 sudo su root
+git --version
+git config --global user.name "tejas-niturkar"
+ git config --global user.email "tejas.niturkar@gmail.com"
+git config --global user.email "tejas.niturkar@gmail.com"
+which git
+git config --list
+sudo su
+git status
+pwd
+cd cookbooks/
+ls
+git add test-cookbook
+gitt --version
+git --version
+sudo su 
