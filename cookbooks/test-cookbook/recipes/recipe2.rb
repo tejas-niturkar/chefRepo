@@ -14,3 +14,11 @@ action :create
 owner 'root'
 group 'root'
 end
+
+
+file '/myfile3' do
+content 'This is My third Project code'
+action :create
+owner 'root'
+group 'root'
+end
