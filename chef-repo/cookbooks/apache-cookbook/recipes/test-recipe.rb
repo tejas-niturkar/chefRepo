@@ -10,7 +10,7 @@ action :install
 end
 
 file '/var/www/html/index.html' do
-content 'Welcome to Technical Guftgu'
+content 'Welcome to Tejas Niturkar site > Chef demo > For both the nodes '
 action :create
 end
 
