@@ -62,3 +62,54 @@ git add test-cookbook
 gitt --version
 git --version
 sudo su 
+git status
+sudo su
+pwd
+ls
+sudo unzip chef-starter.zip 
+sudo yum install unzip
+ls
+sudo unzip chef-starter.zip 
+ls
+cd chef-repo/
+ls
+ls -l
+ls
+knife ssl check
+ls
+ls -l
+git status
+git add chef-repo/
+sudo su 
+ls
+cp config.rb chef-repo/
+sudo su
+ls
+ls -l
+chown root:root node-key.pem.txt 
+sudo su 
+pwd
+sudo su
+sudo su 
+git status
+ls
+cd cookbooks/
+ls
+cd apache-cookbook/
+ls
+ls -l
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Chef/
+ls
+cd ..
+pwd
+cd home/ec2-user/
+ls
+cd nodes/
+ls
+sudo su 
