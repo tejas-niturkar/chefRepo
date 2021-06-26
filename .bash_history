@@ -113,3 +113,64 @@ ls
 cd nodes/
 ls
 sudo su 
+pwd
+ls
+cd cookbooks/
+ls
+cd ..
+cd apa
+cd chef-repo/
+ls
+cd ..
+git status
+pwd
+ls
+cd chef-repo/
+ls
+knife bootstrap 172.31.23.200 --ssh-user ec2-user -sudo -i node-key.pem -N node15june
+knife bootstrap 172.31.23.200 --ssh-user ec2-user --sudo -i node-key.pem -N node15june
+knife node list
+ls
+cd cookbooks/
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+cd cookbooks/
+ls
+cd ..
+mv cookbooks/apache-cookbook chef-repo/cookbooks
+sudo su root
+ls
+cd chef-repo/
+knife node list
+knife node show node1
+knife node list
+knife node deletee node1 -y
+knife node delete node1 -y
+knife node delete node2 -y
+knife node list
+knife node delete node15june -y
+knife node list
+knife cookbook list
+knife cookbook delete apache-cookbook -y
+knife cookbook list
+knife client list
+knife client delete node1
+knife client delete node15june -y
+knife client list
+knife client delete node2 -y
+knife client list
+ls
+cd roles/
+ls
+cat starter.rb 
+knife node list
+ls
+cd chef-repo/
+ls
+knife node list
+knife role list
+sudo su
