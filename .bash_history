@@ -174,3 +174,7 @@ ls
 knife node list
 knife role list
 sudo su
+sudo yum update -y
+git status
+git add .
+sudo su
