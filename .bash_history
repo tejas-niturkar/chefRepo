@@ -178,3 +178,9 @@ sudo yum update -y
 git status
 git add .
 sudo su
+fdisk -l
+sudo fdisk -l
+df -h
+fdisk /dev/xvda
+sudo fdisk /dev/xvda
+sudo su
